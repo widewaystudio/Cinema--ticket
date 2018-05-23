@@ -1,0 +1,13 @@
+.star{
+  display:inline-block;
+  background-position:0 50%;
+  background-color:#fff;
+  background-image:url("../icons/starfive.svg");
+
+  &Top{
+    height:100%;
+    background-position:0 50%;
+    background-color:#fff;
+    background-image:url("../icons/starfive-0.svg");
+  }
+}

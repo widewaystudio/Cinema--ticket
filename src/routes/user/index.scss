@@ -1,0 +1,63 @@
+@import "../../util";
+
+.user{
+  background-color:#fff;
+
+  &__top{
+    background-color:#313440;
+    color:#fff;
+    padding:10px 20px 30px;
+  }
+  &__info{
+    display:flex;
+  }
+
+  &__avatar{
+    width:70px;
+    height:70px;
+    margin-right:10px;
+    background-color:#ccc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+  }
+  &__detail{
+    flex:1;
+    overflow:hidden;
+  }
+  &__name{
+    font-size:20px;
+    line-height:28px;
+    @include line-ellipsis();
+
+
+  }
+  &__fellow,
+  &__fans{
+    margin-top:10px;
+    font-size:12px;
+    &:nth-child(n + 2){
+      padding-left:10px;
+    }
+  }
+
+  &__level{
+    padding:0px 8px;
+    margin-top:2px;
+    font-size:12px;
+    line-height:16px;
+    background-color:#5a5378;
+    border-radius:8px;
+    width:50px;
+    height:16px;
+    text-align:center;
+  }
+  &__content{
+    padding:0 20px 50px;
+  }
+}

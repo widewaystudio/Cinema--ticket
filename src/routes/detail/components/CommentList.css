@@ -1,0 +1,46 @@
+.commpentList {
+  margin: 16px 0 16px; }
+  .commpentList .clistuser {
+    display: flex; }
+    .commpentList .clistuser__avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ccc;
+      background-size: contain;
+      background-position: 50%; }
+    .commpentList .clistuser__detail {
+      margin-left: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    .commpentList .clistuser__name {
+      font-size: 16px;
+      color: #000;
+      font-weight: 800;
+      margin-bottom: 6px; }
+    .commpentList .clistuser__value {
+      color: #f2a95d;
+      font-weight: 600;
+      padding-left: 5px; }
+  .commpentList__detail {
+    display: flex;
+    justify-content: space-between;
+    align-item: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 6px;
+    line-height: 14px; }
+  .commpentList__time {
+    flex: 1; }
+  .commpentList__zan {
+    width: 120px;
+    text-align: right; }
+  .commpentList__zan i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 2px;
+    background: #fff url("../../../icons/zan-solid.svg") 50%/cover no-repeat; }
+  .commpentList__zan--active i {
+    background: #fff url("../../../icons/zan-o.svg") 50%/cover no-repeat; }

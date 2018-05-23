@@ -1,0 +1,43 @@
+.tabMenu {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  text-align: center;
+  border-top: 1px solid #efefef; }
+  .tabMenu a {
+    text-decoration: none; }
+  .tabMenu__btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .tabMenu__icon {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #ccc; }
+    .tabMenu__icon--movie {
+      background: #fff url("../icons/movie.svg") 50%/contain no-repeat; }
+    .tabMenu__icon--user {
+      background: #fff url("../icons/user.svg") 50%/contain no-repeat; }
+    .tabMenu__icon--cinema {
+      background: #fff url("../icons/cinema.svg") 50%/contain no-repeat; }
+    .tabMenu__icon--show {
+      background: #fff url("../icons/show.svg") 50%/contain no-repeat; }
+    .tabMenu__icon--find {
+      background: #fff url("../icons/find.svg") 50%/contain no-repeat; }
+  .tabMenu__text {
+    font-size: 10px;
+    color: #666;
+    margin-top: 4px; }
+  .tabMenu__btn--active .tabMenu__text {
+    color: #ff4c64;
+    text-decoration: none; }
+  .tabMenu__btn--active .tabMenu__icon--movie {
+    background: #fff url("../icons/movie-solid.svg") 50%/contain no-repeat; }
+  .tabMenu__btn--active .tabMenu__icon--user {
+    background: #fff url("../icons/user-solid.svg") 50%/contain no-repeat; }

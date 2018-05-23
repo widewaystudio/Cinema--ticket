@@ -1,0 +1,74 @@
+@import '../../../util';
+.score{
+
+  &__top{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+  }
+
+  .topItem{
+   &__value{
+    font-size:18px;
+    font-weight:500;
+    line-height:30px;
+     align-items:center;
+  }
+
+
+    &__title{
+      font-size:12px;
+      line-height:16px;
+      color:$gray;
+
+    }
+  }
+
+
+  .scoreBtn{
+    display:flex;
+    justify-content:space-between;
+
+    &__item{
+      flex:1;
+      display:block;
+      height:46px;
+      line-height:46px;
+      background-color:#f5f5f5;
+      text-align:center;
+      -webkit-appearance: none;
+      outline:none;
+      border:none;
+      font-size:14px;
+      border-radius:4px;
+      color:$gray;
+      padding:0;
+      @include flex-center();
+
+
+        i{
+          display:inline-block;
+          margin-right:10px;
+          width:16px;
+          height:16px;
+        }
+      &--want{
+
+         i{
+           background:url('../../../icons/heart.svg') 50% / contain no-repeat;
+         }
+
+      }
+
+      &--seen{
+        margin-left:20px;
+        i{
+          background:url('../../../icons/star-solid.svg') 50% / contain no-repeat;
+        }
+
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,16 @@
+.tagList {
+  padding: 10px 0; }
+  .tagList__item {
+    display: inline-block;
+    border: 1px solid #e4e2e2;
+    color: #000;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 14px;
+    border-radius: 14px;
+    margin: 6px 6px 0 0; }
+    .tagList__item--active {
+      background-color: #ef819e;
+      color: #fff;
+      border: 1px solid #ef819e; }

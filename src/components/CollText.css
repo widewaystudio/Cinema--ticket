@@ -1,0 +1,17 @@
+.collText {
+  font-size: 14px;
+  line-height: 28px; }
+  .collText--collapse {
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    line-height: 28px; }
+  .collText__label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    line-height: 28px;
+    color: #6a9ada;
+    padding: 0 20px 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), #fff, #fff, #FFF); }

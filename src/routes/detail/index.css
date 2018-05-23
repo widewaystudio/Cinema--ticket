@@ -1,0 +1,35 @@
+.detail__top {
+  background-color: #d4b267;
+  padding: 5px 20px 0px; }
+
+.detail__content {
+  padding: 0 20px 55px; }
+
+.detail__module {
+  padding: 20px 0; }
+  .detail__module:nth-child(n + 2) {
+    border-top: 1px solid #e4e2e2; }
+
+.detail__mTitle {
+  font-size: 16px;
+  color: #000;
+  margin: 0 0 16px; }
+
+.detail__overview {
+  font-size: 14px;
+  line-height: 28px;
+  white-space: normal;
+  text-align: justify;
+  color: #333; }
+
+.detail__buyBtn {
+  display: block;
+  position: fixed;
+  height: 55px;
+  line-height: 55px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-color: #ef819e;
+  text-decoration: none;
+  bottom: 0px; }

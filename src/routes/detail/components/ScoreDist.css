@@ -1,0 +1,29 @@
+.scoreDist {
+  display: flex; }
+  .scoreDist .score {
+    width: 120px;
+    text-align: center; }
+    .scoreDist .score__value {
+      font-size: 34px;
+      color: #000;
+      font-weight: 500; }
+    .scoreDist .score__desc {
+      color: #777;
+      font-size: 12px; }
+  .scoreDist .dist {
+    flex: 1; }
+    .scoreDist .dist__item {
+      height: 8px;
+      display: flex;
+      align-items: center; }
+      .scoreDist .dist__item:nth-child(n + 2) {
+        margin-top: 2px; }
+    .scoreDist .dist__btm {
+      flex: 1;
+      width: 100%;
+      height: 4px;
+      background-color: #ccc;
+      margin-left: 5px; }
+    .scoreDist .dist__top {
+      height: 100%;
+      background-color: #000; }

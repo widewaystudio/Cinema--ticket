@@ -1,0 +1,22 @@
+.movieInfo{
+  padding:10px 20px;
+
+  &__title{
+    color:#333;
+    font-size:16px;
+    font-weight:400;
+    height:28px;
+    line-height:28px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+
+  }
+  &__time{
+    margin-top:6px;
+    font-size:14px;
+    color:#666;
+    padding-bottom:6px;
+    border-bottom:1px solid #f2f2f4;
+  }
+}

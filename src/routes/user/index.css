@@ -1,0 +1,45 @@
+.user {
+  background-color: #fff; }
+  .user__top {
+    background-color: #313440;
+    color: #fff;
+    padding: 10px 20px 30px; }
+  .user__info {
+    display: flex; }
+  .user__avatar {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    background-color: #ccc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .user__detail {
+    flex: 1;
+    overflow: hidden; }
+  .user__name {
+    font-size: 20px;
+    line-height: 28px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; }
+  .user__fellow, .user__fans {
+    margin-top: 10px;
+    font-size: 12px; }
+    .user__fellow:nth-child(n + 2), .user__fans:nth-child(n + 2) {
+      padding-left: 10px; }
+  .user__level {
+    padding: 0px 8px;
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #5a5378;
+    border-radius: 8px;
+    width: 50px;
+    height: 16px;
+    text-align: center; }
+  .user__content {
+    padding: 0 20px 50px; }

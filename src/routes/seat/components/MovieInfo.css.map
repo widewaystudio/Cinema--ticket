@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,iBAAQ;EACN,SAAS,EAAC,IAAI;EACd,MAAM,EAAC,IAAI;EACX,WAAW,EAAC,IAAI",
+"sources": ["MovieInfo.scss"],
+"names": [],
+"file": "MovieInfo.css"
+}

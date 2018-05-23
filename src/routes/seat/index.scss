@@ -1,0 +1,34 @@
+@import '../../util';
+.seat{
+  .tOperator{
+    padding:0 20px;
+  }
+
+
+  &__tip{
+    height:21px;
+    padding:3px 0px;
+    background:#fff url('../../icons/seats.svg') 50% 50% / auto 20px no-repeat;
+  }
+
+  &__graph{
+    background-color:#f7f7f7;
+    width:100%;
+    height:500px;
+  }
+
+  &__screen{
+    font-size:8px;
+    height:25px;
+    line-height:25px;
+    color:$black;
+    text-align:center;
+    background:transparent url('../../icons/screen.svg') 50% 0 / auto 24px no-repeat;
+  }
+  &__map{
+    overflow-x:scroll;
+    overflow-y:hidden;
+    padding-bottom:20px;
+  }
+
+}
