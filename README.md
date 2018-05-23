@@ -20,7 +20,7 @@
 ![城市列表](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/shouye-iphone6plus.jpg)
 ##> 详情页效果
 ####> 手机设备效果
-![效果图1]((https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/xiangqingye-iphone5.jpg)
+![效果图1](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/xiangqingye-iphone5.jpg)
 ####> 详情页演员列表和评分大小设备效果图
 ![效果图](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/pingfen-iphone.jpg)
 ![效果图](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/pingfen-iphone6plugs.jpg)
@@ -29,4 +29,4 @@
 ![购票功能](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/goupiaohou-iphone6plus.jpg)
 
 ##> 用户详情页
-![效果图](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/user.jpg]
+![效果图](https://github.com/widewaystudio/Cinema--ticket/blob/master/R-img/user.jpg)
